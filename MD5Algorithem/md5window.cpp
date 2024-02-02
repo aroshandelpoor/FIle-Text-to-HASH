@@ -25,6 +25,7 @@ void MD5Window::on_pushButton_Browse_clicked()
 
 void MD5Window::on_pushButton_CalculateHashFile_clicked()
 {
+    // for output FILE
      QCryptographicHash CalculateMd5(QCryptographicHash::Md5);
     QFile file;
      file.setFileName(ui->lineEdit_Browse->text());
