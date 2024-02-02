@@ -176,7 +176,7 @@ public:
 
     void retranslateUi(QMainWindow *MD5Window)
     {
-        MD5Window->setWindowTitle(QCoreApplication::translate("MD5Window", "MD5Window", nullptr));
+        MD5Window->setWindowTitle(QCoreApplication::translate("MD5Window", "MD5 mAker", nullptr));
         groupBox->setTitle(QCoreApplication::translate("MD5Window", "MD5 Algorithem", nullptr));
         groupBox_2->setTitle(QCoreApplication::translate("MD5Window", "File", nullptr));
         pushButton_Browse->setText(QCoreApplication::translate("MD5Window", "Browse", nullptr));
